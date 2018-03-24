@@ -1,6 +1,3 @@
-# decision-aid-maps
-leaflet maps
-
 <html>
 <head>
 <meta charset="utf-8" />

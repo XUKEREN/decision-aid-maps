@@ -1,6 +1,6 @@
 # decision-aid-maps
 leaflet maps
-```html
+
 <html>
 <head>
 <meta charset="utf-8" />
@@ -26,5 +26,3 @@ leaflet maps
 <script type="application/htmlwidget-sizing" data-for="htmlwidget-ea6e1f9813edc35b5f2f">{"viewer":{"width":"100%","height":400,"padding":0,"fill":true},"browser":{"width":"100%","height":400,"padding":0,"fill":true}}</script>
 </body>
 </html>
-
-```

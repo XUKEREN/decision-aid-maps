@@ -5,7 +5,9 @@ View(usage_by_state_2015)
 usage_by_state_2016<- read.csv(text = getURL("https://raw.githubusercontent.com/XUKEREN/decision-aid-maps/master/usage%20by%20state%202016.csv"))
 View(usage_by_state_2016)
 usage_by_state_2017<- read.csv(text = getURL("https://raw.githubusercontent.com/XUKEREN/decision-aid-maps/master/usage%20by%20state%202017.csv"))
-
+library(magrittr)
+library(leaflet)
+library(dplyr)
 
 state<-tolower(usage_by_state_2015$Region)
 freq<-usage_by_state_2015$Sessions
